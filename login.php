@@ -23,7 +23,7 @@ if ($resultado->num_rows === 1) {
 
     if (password_verify($contrasena, $fila['contrasena'])) {
         $_SESSION['usuario'] = $usuario;
-        header("Location: INDE.php");
+        header("Location: index.php");
         exit();
     } else {
         echo "<h3>❌ Contraseña incorrecta.</h3>";
