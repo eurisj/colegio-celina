@@ -26,7 +26,7 @@ $stmt->bind_param("ss", $usuario, $contrasena);
 
 if ($stmt->execute()) {
     // Registro exitoso → redirigir
-    header("Location: INDE.php");
+    header("Location: index.php");
     exit();
 } else {
     echo "❌ Error al registrar: " . $stmt->error;
