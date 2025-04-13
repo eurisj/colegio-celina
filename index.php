@@ -21,7 +21,7 @@ session_start();
     <!-- Barra de navegación -->
     <nav>
     <ul class="menu">
-        <li><a href="INDE.php"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="index.php"><i class="fas fa-home"></i> Inicio</a></li>
         <li><a href="ubicacion.php"><i class="fas fa-map-marker-alt"></i> Ubicación</a></li>
         <li><a href="https://www.instagram.com/celina.pellier/?hl=es" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
         <li><a href="contacto.php"><i class="fas fa-phone"></i> Contacto</a></li>
