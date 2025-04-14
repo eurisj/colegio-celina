@@ -1,2 +1,0 @@
-"# colegio-celina" 
-"# colegio-celina" 
